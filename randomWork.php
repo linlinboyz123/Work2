@@ -11,7 +11,7 @@
     //指定隨機亂數
     $firstArray = array(3,15,23,24,42,56,95);
 
-    echo $firstArray[rand(1,7)]."</br>";
+    echo $firstArray[rand(0,1)]."</br>";
 
     //顯示兩個陣列的聯集
     $a = array(1,3,6,7,9,10,11);
