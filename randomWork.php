@@ -20,7 +20,9 @@
         for($i = 0; $i < count($a); $i++){
             for($j = 0; $j < count($b); $j++){
                 if($a[$i] == $b[$j]){
-                    echo $a[$i]." "; 
+                    break;
+                } else if ($a[$i] != $b[$j] && $j==0){
+                    echo $a[$i];
                 }
             }
         }

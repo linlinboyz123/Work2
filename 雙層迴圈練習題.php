@@ -13,7 +13,7 @@
                print $j."+";
             }
         }
-        
+        echo trim($j,"+");
     ?>
     <form method="post">
     <label for="number1">請輸入一個奇數:</label>
